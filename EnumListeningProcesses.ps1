@@ -70,9 +70,9 @@ foreach ($p in $procs_data){
 	$p.ListeningOn = ($procs[$p.id] | select -Unique | foreach {($_ -split '\s+')[1, 2] -join ' '}) -join ', '
 }
 
-# Writing output to file in CSV format
-try{
+# Write output to file as CSV
+try {
 	$procs_data | Export-csv -Path $OutputFile -NoTypeInformation
-}catch{
+} catch {
 	$procs_data | Export-csv -Path $OutputFile
 }
