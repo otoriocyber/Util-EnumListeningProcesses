@@ -5,7 +5,8 @@ This PowerShell script is designed to help users identify and analyze processes 
 ## Example
 Partial screenshot from PCS 7 OS Server results (with simple Excel formatting):
 
-![image](https://github.com/otoriocyber/Util-EnumListeningProcesses/assets/106976225/610b1849-5de8-4a68-bacd-6816bbf38e13)
+![image](https://github.com/otoriocyber/Util-EnumListeningProcesses/assets/106976225/da755884-18e0-45d6-8bc9-0e8116d759b7)
+
 
 ## Usage
 * Output file is in a CSV format, recommanded to load into spreadsheet software such as Excel or Google Sheets.
